@@ -9,11 +9,11 @@
 <body>
 <div class="container">
     <header>
-        <div class="circle"></div>
+        <div class="icon"></div>
         <p class="phoneNumber">(044)123-45-67 (044)567-89-10</p>
         <div class="loginForm">
            
-            <form action="">
+            <form action="#">
                 <input type="text" size="14" placeholder="логин">
                 <input type="password" size="14" placeholder="пароль">
             </form>
@@ -42,7 +42,7 @@
             <a href="#"><li>КОНТАКТЫ</li></a>
             
             <div class="cashbox">
-                <p>товаров:</p><span>0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>на сумму:</p><span>&nbsp;&nbsp;&nbsp;&nbsp;0,00 грн.</span>
+                    <p>товаров:</p>             <span>0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>на сумму:</p><span>&nbsp;&nbsp;&nbsp;&nbsp;0,00 грн.</span>
             </div>
         </menu>
     </header>
@@ -60,8 +60,60 @@
         <h3>поиск дисков</h3>
     </div>
     
-    <aside></aside>
+    <aside class="leftAside">
+        <h3>КАТАЛОГ ПРОДУКЦИИ:</h3>
+        
+        <h4>ШИНЫ</h4>
+        <ul>
+            <li><a href="#">Наименование 1</a></li>
+            <li><a href="#">Наименование 2</a></li>
+            <li><a href="#">Наименование 3</a></li>
+            <li><a href="#">Наименование 4</a></li>
+        </ul>
+        
+        <h4 class="asideH4Second">ДИСКИ</h4>
+        <ul>
+            <li><a href="#">Наименование 1</a></li>
+            <li><a href="#">Наименование 2</a></li>
+            <li><a href="#">Наименование 3</a></li>
+            <li><a href="#">Наименование 4</a></li>
+        </ul>
+        
+        <h4 class="asideH4Second">БОЛТЫ</h4>
+        <ul>
+            <li><a href="#">Наименование 1</a></li>
+            <li><a href="#">Наименование 2</a></li>
+            <li><a href="#">Наименование 3</a></li>
+            <li><a href="#">Наименование 4</a></li>
+        </ul>
+    </aside>
+  
+    <aside class="rightAside">
+        <h3>БРЕНДЫ:</h3>
+        
+        <h4>ШИНЫ</h4>
+        <form action="#">
+            <p><input type="checkbox" id="check1">
+               <label for="check1">Бренд 1</label></p>
+            <p><input type="checkbox" id="check2">
+               <label for="check2">Бренд 2</label></p>
+            <p><input type="checkbox" id="check3">
+               <label for="check3">Бренд 3</label></p>
+        </form>
+            
+        <h4 class="asideH4SeconRight">ДИСКИ</h4>
+        <form action="#">
+            <p><input type="checkbox" id="check21">
+               <label for="check21">Бренд 1</label></p>
+            <p><input type="checkbox" id="check22">
+               <label for="check22">Бренд 2</label></p>
+            <p><input type="checkbox" id="check23">
+               <label for="check23">Бренд 3</label></p>
+               <input type="submit" value="ВЫБРАТЬ">
+        </form>
+    </aside>
     
+
     
     <main>
         <section>
@@ -127,6 +179,28 @@
             <figcaption>393.00 грн.</figcaption>
         </section>       
     </main>
+    
+    <div class="brands">    
+        <p><img src="img/brand01.png" alt=""></p>
+        <p><img src="img/brand02.png" alt=""></p>
+        <p><img src="img/brand03.png" alt=""></p>
+        <p><img src="img/brand04.png" alt=""></p>
+        <p><img src="img/brand05.png" alt=""></p>
+        <p><img src="img/brand06.png" alt=""></p>
+        <p><img src="img/brand07.png" alt=""></p>
+        <p><img src="img/brand08.png" alt=""></p>
+    </div>
+    
+    <footer>
+        <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <p class="created"> Создание сайта © Global Vision</p>
+    </footer>
+    
     
 </div>    
 </body>
