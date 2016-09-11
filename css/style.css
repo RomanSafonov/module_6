@@ -400,6 +400,10 @@ section figure{
     border-radius: 7px;
 }
 
+section figure:hover {
+    box-shadow: 5px 5px 5px #0000ff;
+}
+
 section h4{
     color: #206988;
     text-align: center;
