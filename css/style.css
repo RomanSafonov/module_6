@@ -401,6 +401,7 @@ section figure{
 }
 
 section figure:hover {
+    box-shadow: 3px 3px 15px #a7163d;
 }
 
 section h4{
